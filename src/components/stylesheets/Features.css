@@ -1,0 +1,64 @@
+#why-us {
+    /* background-color: black; */
+    height: fit-content;
+    /* position: relative; */
+    /* top: 10; */
+    background-color: rgba(0, 121, 36, 0.233);
+  }
+  #why-us-hero {
+    padding-bottom: 100px;
+  }
+  #wu-top {
+    margin-bottom: 15px;
+    font-size: 1.2rem;  
+    cursor: pointer;
+  }
+  #wu-top h2::after {
+    content: " / Features";
+    position: relative;
+    left: -164px;
+    opacity: 0%;
+    color: rgba(0, 121, 36, 0.233);
+    transition: 0.5s ease;
+  }
+  #wu-top h2:hover::after {
+    /* content: " / Features"; */
+    /* position: relative; */
+    left: 0px;
+    opacity: 100%;
+    color: black;
+  }
+  #why-us-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #why-us-wrapper {
+    width: 80%;
+  }
+  #wu-bottom {
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+  }
+  .wu-card {
+    width: 321px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+    transition: 0.3s ease;
+    padding: 20px;
+  }
+  .wu-card:hover {
+    box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.137);
+  }
+  .wu-card-top h4 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
+
+  #wu-bottom .wu-card .wu-card-top h4 img{
+    height: 1.5rem;
+  }

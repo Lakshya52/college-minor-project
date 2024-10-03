@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+
+      * {
+        font-family: "Lexend Deca", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        height: 100%;
+        width: 100%;
+        cursor: pointer;
+      }
+      nav {
+        height: 100px;
+        background-color: rgba(0, 121, 36, 0.233);
+        display: flex;
+        justify-content: center;
+      }
+      #nav-wrapper {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        justify-content: space-between;
+      }
+      #nav-icons-and-text {
+        height: 100px;
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: first baseline  ; */
+        align-items: center;
+      }
+      #nav-icons-and-text img {
+        height: 55%;
+      }
+      #website-name {
+        font-family: "Lexend Deca", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.6rem;
+        margin-left: 1rem;
+      }
+
+      /* nav list */
+      #nav-list ul {
+        display: flex;
+      }
+      #nav-list li {
+        margin-left: 30px;
+        cursor: pointer;
+        position: relative;
+      }
+      /* #nav-list li::after {
+        content: "";
+        display: block;
+        position: relative;
+         right: 0; 
+        top: 3px;
+        height: 2px;
+        width: 100%;
+        background-color: black;
+        bottom: -3px;
+        width: 0%;
+        transition: width 0.3s ease;
+      } */
+      #nav-list li a::after {
+        content: "";
+        display: block;
+        position: relative;
+        /* right: 0; */
+        top: 3px;
+        height: 2px;
+        width: 100%;
+        background-color: black;
+        bottom: -3px;
+        width: 0%;
+        transition: width 0.3s ease;
+      }
+      /* #nav-list li:hover::after {
+         display: block; 
+        width: 100%;
+        right: 0;
+      } */
+      #nav-list li a:hover::after {
+        /* display: block; */
+        width: 100%;
+        right: 0;
+      }
+
+      .flex{
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
+      }

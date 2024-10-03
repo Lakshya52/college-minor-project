@@ -1,0 +1,36 @@
+#LoginForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79vh;
+
+}
+#LoginForm form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    padding: 30px;
+    /* width: 500px; */
+    background-color: rgba(0, 121, 36, 0.233);
+    border-radius: 10px;
+    
+} 
+#LoginForm form h1{
+    margin-bottom: 15px;
+}
+#LoginForm form input{
+    padding: 10px;
+    margin: 5px;
+}
+#LoginForm form #submitbtn{
+    width: 404px;
+}
+#LoginForm form #SignUpLinkInLogin{
+    color: blue;
+}
+
+

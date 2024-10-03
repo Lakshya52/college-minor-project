@@ -1,0 +1,41 @@
+#SignupForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79vh;
+
+}
+#SignupForm form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    padding: 30px;
+    /* width: 500px; */
+    background-color: rgba(0, 121, 36, 0.233);
+    border-radius: 10px;
+    
+} 
+#SignupForm form h1{
+    margin-bottom: 15px;
+}
+#SignupForm form input{
+    padding: 10px;
+    margin: 5px;
+}
+#SignupForm form #submitbtn{
+    width: 404px;
+}
+#SignupForm form #LoginLinkInSignup{
+    color: blue;
+}
+
+
+#SignupEmail{
+    width: 380px;
+
+}
+

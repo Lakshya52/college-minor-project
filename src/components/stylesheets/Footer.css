@@ -1,0 +1,7 @@
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    /* color: white; */
+    padding: 10px;
+}

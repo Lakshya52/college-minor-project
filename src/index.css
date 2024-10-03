@@ -1,0 +1,8 @@
+body {
+    overflow: -moz-scrollbars-none; /* For older versions of Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+  }
