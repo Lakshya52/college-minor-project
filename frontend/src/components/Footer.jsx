@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
     <footer>
-      Fine-Track &copy; all rights reserved | Developed and Designed by Lakshya | BCIIT Minor project 2024
+      &copy; Fine-Track | Developed and Designed by Lakshya | BCIIT Minor project 2024
     </footer>
     </>
   )
